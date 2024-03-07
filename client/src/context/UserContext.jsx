@@ -3,15 +3,15 @@ import {createContext, useEffect, useState} from 'react'
 export const userContext = createContext({
   currentUser: {
     _id: '',
-    firstName: '',
-    lastName: '',
+    name: '',
     email: '',
-    verse: '',
+    favVerse: '',
     image: '',
     church: '',
     businessName: '',
     trade: '',
-    description: ''
+    description: '',
+    lookingForWork: null
   },
   setCurrentUser: () => {}
 })
@@ -19,15 +19,15 @@ export const userContext = createContext({
 export const UserContextProvider = (props) => {
   const [currentUser, setCurrentUser] = useState({
     _id: '',
-    firstName: '',
-    lastName: '',
+    name: '',
     email: '',
-    verse: '',
+    favVerse: '',
     image: '',
     church: '',
     businessName: '',
     trade: '',
-    description: ''
+    description: '',
+    lookingForWork: null
   });
 
   useEffect(() => {

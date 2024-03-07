@@ -43,10 +43,10 @@ const LogIn = () => {
   };
 
   return (
-    <div className="w-full bg-white rounded-lg shadow dark:border md:mt-0 sm:max-w-md xl:p-0 dark:bg-gray-800 dark:border-gray-700 mx-auto xl:my-10">
+    <div className="w-11/12 bg-white rounded-lg shadow dark:border md:mt-0 sm:max-w-md xl:p-0 dark:bg-gray-800 dark:border-gray-700 mx-auto">
       <div className="p-6 space-y-4 md:space-y-6 sm:p-8">
         <h2 className="text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-2xl dark:text-white">
-          Log-In
+          Log In
         </h2>
         <form onSubmit={handleSubmit} className="space-y-4 md:space-y-6">
           <div>
@@ -84,7 +84,7 @@ const LogIn = () => {
               to={"/register"}
               className="font-medium text-blue-600 dark:text-blue-500 hover:underline"
             >
-              Register
+              Register Here
             </Link>
           </div>
           <button className="w-full bg-sky-300 hover:bg-sky-400 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">
